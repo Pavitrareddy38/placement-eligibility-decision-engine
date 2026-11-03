@@ -27,17 +27,7 @@ public class Main {
             new PercentageRule(),
             new BacklogRule(),
             new GraduationYearRule()};
-        // EligibilityRule percentageRule = new PercentageRule();
-        // EligibilityRule backlogRule = new BacklogRule();
-        // EligibilityRule yearRule = new GraduationYearRule();
-
-        // boolean percentagePass
-        //         = candidate.getPercentage() >= job.getMinimumPercentage();
-        // boolean backlogPass
-        //         = candidate.getBacklogs() <= job.getMaximumBacklogs();
-        // boolean yearPass
-        //         = candidate.getGraduationYear() == job.getRequiredGraduationYear();
-        // boolean eligible = percentagePass && backlogPass && yearPass;
+        
         System.out.println("=====================================");
         System.out.println("PLACEMENT ELIGIBILITY RESULT");
         System.out.println("=====================================");
